@@ -50,5 +50,7 @@ private Map<String, DataSource> createDataSources() {
     dataSource2.setUsername("root");
     dataSource2.setPassword("");
     dataSourceMap.put("ds_2", dataSource2);
+    
+    return dataSourceMap;
 }
 ```
